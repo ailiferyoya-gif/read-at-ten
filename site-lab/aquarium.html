@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d3c60">
+  <title>深潮水族館</title>
+  <link rel="stylesheet" href="site-lab.css">
+  <link rel="stylesheet" href="aquarium-v2.css">
+</head>
+<body class="aquarium-page aqua-v2-page">
+  <header class="aqua-v2-header">
+    <a class="aqua-v2-brand" href="index.html" aria-label="深潮水族館 ホーム">
+      <span>深潮水族館</span><small>SHIOMI AQUARIUM</small>
+    </a>
+    <nav aria-label="主な案内">
+      <a href="#visit">営業時間・アクセス</a>
+      <a href="#program">イベント・体験</a>
+      <a href="#floor">館内の見どころ</a>
+      <a href="#news">お知らせ</a>
+    </nav>
+    <button class="aqua-v2-ticket" type="button" data-notice="前売りチケットは、この閲覧用サンプルでは販売していません。">前売りチケット</button>
+  </header>
+
+  <main>
+    <section class="aqua-v2-hero" aria-labelledby="aqua-title">
+      <div class="aqua-v2-hero-media" aria-live="polite">
+        <img class="is-current" data-aqua-scene src="assets/aquarium-hero.png" alt="大きな水槽の魚を眺める来館者">
+        <img data-aqua-scene src="assets/aquarium-jellyfish.png" alt="青い円形水槽を漂うクラゲと来館者">
+      </div>
+      <div class="aqua-v2-hero-copy">
+        <p class="aqua-v2-eyebrow">東京・港側 / 2026.07.29</p>
+        <h1 id="aqua-title">深潮水族館</h1>
+        <p class="aqua-v2-tagline">水の中に、少し寄り道。</p>
+        <div class="aqua-v2-scene-actions" aria-label="写真を切り替える">
+          <button type="button" class="is-current" data-aqua-slide="0" aria-label="大水槽の写真を表示"></button>
+          <button type="button" data-aqua-slide="1" aria-label="クラゲ水槽の写真を表示"></button>
+        </div>
+      </div>
+      <aside class="aqua-v2-today" aria-label="本日の営業情報">
+        <p>本日の営業時間</p>
+        <strong>10:00 <span>—</span> 20:00</strong>
+        <small>最終入場は19:00まで</small>
+        <a href="#program">次のプログラム　11:30 飼育スタッフの話</a>
+      </aside>
+      <div class="aqua-v2-hero-links" aria-label="来館案内">
+        <a href="#visit"><span>営業時間・アクセス</span><small>来館前に確認</small></a>
+        <a href="#visit"><span>ご利用料金</span><small>一般 2,100円</small></a>
+        <a href="#program"><span>イベント・体験</span><small>本日の案内</small></a>
+      </div>
+    </section>
+
+    <section class="aqua-v2-intro" id="visit" data-reveal>
+      <p class="aqua-v2-label">VISIT</p>
+      <div>
+        <h2>きょうの館内</h2>
+        <p>暑い午後は、大水槽とクラゲの展示室が比較的ゆっくり見られます。港側入口から入ると、最初に海のゆらぎを感じる展示室へ続きます。</p>
+      </div>
+      <dl>
+        <div><dt>開館</dt><dd>10:00 — 20:00</dd></div>
+        <div><dt>混雑の目安</dt><dd>ややゆったり</dd></div>
+        <div><dt>最寄り</dt><dd>港側駅 2番出口</dd></div>
+      </dl>
+    </section>
+
+    <section class="aqua-v2-pickup" data-reveal>
+      <div class="aqua-v2-pickup-photo"><img src="assets/aquarium-jellyfish.png" alt="夜の水族館でクラゲ水槽を見上げる来館者"></div>
+      <div class="aqua-v2-pickup-copy">
+        <p class="aqua-v2-label">PICK UP</p>
+        <h2>夜のクラゲ観察会</h2>
+        <p>照明を少し落とした展示室で、飼育スタッフがクラゲの動きや育ち方を案内します。話のあとも、そのまま展示室を見て回れます。</p>
+        <dl><div><dt>開催日</dt><dd>7/29 — 8/31</dd></div><div><dt>時間</dt><dd>18:30 / 約20分</dd></div></dl>
+        <button type="button" data-notice="夜のクラゲ観察会の受付は、当日17:30から館内カウンターで行います。">参加方法を見る</button>
+      </div>
+    </section>
+
+    <section class="aqua-v2-program" id="program" data-reveal>
+      <div class="aqua-v2-section-head"><p class="aqua-v2-label">TODAY'S PROGRAM</p><h2>本日のプログラム</h2><a href="#program">一覧を見る</a></div>
+      <ol>
+        <li><time>11:30</time><div><b>飼育スタッフの話</b><p>クラゲ展示室 / 約15分</p></div><span>どなたでも</span></li>
+        <li><time>14:00</time><div><b>大水槽の魚を観察する</b><p>大水槽前 / 約20分</p></div><span>どなたでも</span></li>
+        <li><time>18:30</time><div><b>夜のクラゲ観察会</b><p>クラゲ展示室 / 約20分</p></div><span>当日受付</span></li>
+      </ol>
+    </section>
+
+    <section class="aqua-v2-floor" id="floor" data-reveal>
+      <div class="aqua-v2-floor-copy"><p class="aqua-v2-label">FLOOR GUIDE</p><h2>見どころを、ゆっくり巡る。</h2><p>大水槽、海辺の小さな生きもの、クラゲの展示室。歩く速さで選べる、三つの寄り道があります。</p><a href="#floor">館内案内を見る</a></div>
+      <div class="aqua-v2-floor-list" aria-label="展示一覧">
+        <article><span>01</span><h3>潮の水槽</h3><p>干潟で暮らす小さな生きもの。</p></article>
+        <article><span>02</span><h3>深場の窓</h3><p>青の奥をゆっくり泳ぐ魚たち。</p></article>
+        <article><span>03</span><h3>クラゲの部屋</h3><p>光の中をほどけるように漂う。</p></article>
+      </div>
+    </section>
+
+    <section class="aqua-v2-news" id="news" data-reveal>
+      <div class="aqua-v2-section-head"><p class="aqua-v2-label">NEWS</p><h2>お知らせ</h2><a href="#news">すべて見る</a></div>
+      <a href="#news"><time>2026.07.25</time><span>夏の企画展示「港のいきもの帳」をはじめます</span></a>
+      <a href="#news"><time>2026.07.18</time><span>夕方の入館時間を延長する日があります</span></a>
+      <a href="#news"><time>2026.07.10</time><span>館内ガイド配布場所の変更について</span></a>
+    </section>
+  </main>
+
+  <footer class="aqua-v2-footer"><a href="index.html">LOCAL WEB STUDIES</a><span>深潮水族館は、デザイン検証用の架空の施設です。</span></footer>
+  <dialog class="plain-dialog"></dialog>
+  <script src="site-lab.js"></script>
+</body>
+</html>
