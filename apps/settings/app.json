@@ -1,0 +1,16 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "icon": "C",
+  "entry": "apps/settings/index.html",
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+

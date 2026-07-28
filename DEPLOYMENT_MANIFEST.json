@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "projectName": "既読は午後十時に止まる",
+  "caseSlug": "read-at-ten",
+  "publicVersion": "1.0.0",
+  "createdAt": "2026-07-28T14:28:15Z",
+  "preview": false,
+  "validationMode": "full",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "app-shell.css",
+      "bytes": 165,
+      "sha256": "39619d04f8382eaf00d1816ef27857ae423249bd0918cd988e88ce6360421b75"
+    },
+    {
+      "path": "app-shell.js",
+      "bytes": 83,
+      "sha256": "ed15e77f9cae8dca76f4f06ecf4378ac2178e4e0feeb5774b31d8d792ecc8002"
+    },
+    {
+      "path": "apps/audio/app.js",
+      "bytes": 3336,
+      "sha256": "3108635f513d68edafdb69a77d77fde12b73195ed4f7f44c0b2bf604b44fa490"
+    },
+    {
+      "path": "apps/audio/app.json",
+      "bytes": 263,
+      "sha256": "5c8dce122f8d87c1a2d2d75579a307d9c76ef8e1027725b103f98de17c790cc3"
+    },
+    {
+      "path": "apps/audio/index.html",
+      "bytes": 1150,
+      "sha256": "dcc62d4aa6a8be1451f4a66658c25ca2373098e5e008db8a4077c2d7ede32cfa"
+    },
+    {
+      "path": "apps/browser/app.js",
+      "bytes": 6955,
+      "sha256": "ac892903e5d00f0c5bd6c1668b6c54354a3ab8bd7000c0b901f6b94b71e990cc"
+    },
+    {
+      "path": "apps/browser/app.json",
+      "bytes": 287,
+      "sha256": "e184956fa58163f5bd508d2a43988f6a1edecb2cc9d9225c96df1268ce021d0b"
+    },
+    {
+      "path": "apps/browser/index.html",
+      "bytes": 1209,
+      "sha256": "6c7734e3e92edd06be0bf869fa227d424a2240385fb67b3a7e7fa3003e3fbbdf"
+    },
+    {
+      "path": "apps/files/app.js",
+      "bytes": 5918,
+      "sha256": "d36575f3bef10b571b524b69539f802c2b5e81c10814e7e685418a1026e17357"
+    },
+    {
+      "path": "apps/files/app.json",
+      "bytes": 263,
+      "sha256": "38c710398195225a16fc13f6861edbabdd241b026763a32e47fc2789df6b7675"
+    },
+    {
+      "path": "apps/files/index.html",
+      "bytes": 1150,
+      "sha256": "59ecdbff3d5b98fd53f39fdab59326fb84cad587e2d589a6099987c167810afb"
+    },
+    {
+      "path": "apps/line/app.js",
+      "bytes": 41052,
+      "sha256": "836a28df8dd995a29c2f7e5b17ab1a20898c00ec4ab809c8e1b93177fcb34a7a"
+    },
+    {
+      "path": "apps/line/app.json",
+      "bytes": 322,
+      "sha256": "66bd7d385282ecd5b49d3fa6ee9f960d566b06a6c77b2d2e4cccef3cd87e3f28"
+    },
+    {
+      "path": "apps/line/index.html",
+      "bytes": 1159,
+      "sha256": "8f3655a02f309ca3ff4533def6b9cbeb5f7eae7940b74231520e045c0986c45b"
+    },
+    {
+      "path": "apps/mail/app.js",
+      "bytes": 9030,
+      "sha256": "c800ca0d94d42acb594325b06fbbd4eb8641f7a445aeb16394d9b06362968501"
+    },
+    {
+      "path": "apps/mail/app.json",
+      "bytes": 263,
+      "sha256": "f3a4bcff5aa1d69f8f3f4a8a19f67006ca32ceddb934811cafbd5780dab81add"
+    },
+    {
+      "path": "apps/mail/index.html",
+      "bytes": 1200,
+      "sha256": "e48907bdbe8514342f841deeecd85d50d4e2858b41d1a63aaf1fe6f69031373a"
+    },
+    {
+      "path": "apps/notes/app.js",
+      "bytes": 3102,
+      "sha256": "7a00072ca0edb02013858122b8ccdb4e0f2282ac6d399962964ee5c3aa6a4170"
+    },
+    {
+      "path": "apps/notes/app.json",
+      "bytes": 263,
+      "sha256": "0d9664efcc9ab8c8ae756d59dc52a56b4b312a591641a8e48b15547f2c8eaabf"
+    },
+    {
+      "path": "apps/notes/index.html",
+      "bytes": 1150,
+      "sha256": "1611ad18162588296d9cdcbb8ab9b57a9de5310bea50c8763597810064d532a3"
+    },
+    {
+      "path": "apps/photos/app.js",
+      "bytes": 3400,
+      "sha256": "52ae98e25674be81e018be4b9d8da594e02ec29f2cfe9664b274fe3d0d72ad6a"
+    },
+    {
+      "path": "apps/photos/app.json",
+      "bytes": 266,
+      "sha256": "5093bf829b5fd524edfe6398d23b8247cdb92d39f8e8837283768636d1ffe031"
+    },
+    {
+      "path": "apps/photos/index.html",
+      "bytes": 1153,
+      "sha256": "f814197b34bc3304bb5e0d99ff8787b584b870bce8b6ecb754dbe66730d3953c"
+    },
+    {
+      "path": "apps/search/app.js",
+      "bytes": 8345,
+      "sha256": "b18c4a4d5bb07f0e9a4b9f278decb48c10046c9eade087ca7b3997beab35073c"
+    },
+    {
+      "path": "apps/search/app.json",
+      "bytes": 285,
+      "sha256": "088c9d6972391471436314ef6a877bb5c177cd12203ce6788abb75de40d88585"
+    },
+    {
+      "path": "apps/search/index.html",
+      "bytes": 1153,
+      "sha256": "e2adceb590b5f7ea4f6428adbee88807549bfd71bbd25cbded2fc2db73b639e3"
+    },
+    {
+      "path": "apps/settings/app.js",
+      "bytes": 4580,
+      "sha256": "6ab55de92f03a6a631ceb16e6621c354ee0e5a2a8de8a3dc2968db423b7831cf"
+    },
+    {
+      "path": "apps/settings/app.json",
+      "bytes": 272,
+      "sha256": "05ab26510ba34fcebad20f41bba98f36aaed2980506180338015cf801129c928"
+    },
+    {
+      "path": "apps/settings/index.html",
+      "bytes": 1159,
+      "sha256": "2174216e88356f99cb75b3254a458fc9de726c2a2cef1d26d1f3ff04b3409338"
+    },
+    {
+      "path": "apps/social/app.js",
+      "bytes": 34347,
+      "sha256": "77470cc468e2ba6bdc4eef9a3cd545e4fdab390f155a784f5267efd7741d156c"
+    },
+    {
+      "path": "apps/social/app.json",
+      "bytes": 328,
+      "sha256": "803f091d4a568369b169bf74c3c2bdcecd86eed664f2166edb43f69dd82a1338"
+    },
+    {
+      "path": "apps/social/index.html",
+      "bytes": 1165,
+      "sha256": "2b87ef1fa61b3eccf079139c72f0ee846446f437d4b486b33c60c94ceebb5f6a"
+    },
+    {
+      "path": "assets/images/E03_hall_2200.png",
+      "bytes": 2118689,
+      "sha256": "56220d96886e09b7fecc9875c9c3dfaf560c40dbc4831148fcb329ff8baf61fa"
+    },
+    {
+      "path": "assets/images/E06_passage_2206.png",
+      "bytes": 2260590,
+      "sha256": "926773c683c854d7b57d1b1b8dbf5d4a81bc6fe77c089cf3ac16b5235ba7cb25"
+    },
+    {
+      "path": "assets/media-slots/slots.json",
+      "bytes": 460,
+      "sha256": "631496397c7e9bac362c63fb364c9a2d9d8d24537043158ae2929f5cd7552ecb"
+    },
+    {
+      "path": "case-manifest.js",
+      "bytes": 4566,
+      "sha256": "4ab0742a8a39ad999fd087d6124ad31934b57c419b701f33c52aeeb170b7f0b1"
+    },
+    {
+      "path": "case-state.js",
+      "bytes": 3078,
+      "sha256": "13891bdc56e231132800aefea22bfbd79f3c0fd38eea9ac78b384f32dee62bcb"
+    },
+    {
+      "path": "case-ui.js",
+      "bytes": 27900,
+      "sha256": "96dea60a7b4749d8cb35b44ec857f0683ad22534468beae180472c02a4302f80"
+    },
+    {
+      "path": "CASE_MANIFEST.json",
+      "bytes": 663,
+      "sha256": "8e361550f8ea5ac3b5466ec1fc5600d9bd4f0c8bb5b972e9aab24f15d369c2e3"
+    },
+    {
+      "path": "core/app-context.js",
+      "bytes": 2061,
+      "sha256": "dc7d4f253d55347cce2583f8b2c170d251acd82881e01b8831c75d487ac7321c"
+    },
+    {
+      "path": "core/audio-player.js",
+      "bytes": 616,
+      "sha256": "f8fc0d6eab03e4c5c8e791538906a0e2fe8619599ba0bd6bc8c4c1bddd7785ca"
+    },
+    {
+      "path": "core/content-engine.js",
+      "bytes": 593,
+      "sha256": "9e13ed99b88527618a90755867b505294a98d48f05f77c168c505756e56cc7c9"
+    },
+    {
+      "path": "core/event-bus.js",
+      "bytes": 534,
+      "sha256": "db3f58a78312140e630b3f3731d6f32f0a63d19860008dffccd57b48ef6defe6"
+    },
+    {
+      "path": "core/evidence-hooks.js",
+      "bytes": 627,
+      "sha256": "02fb1710b617e923ac532b62ce0b7d2434ac5b5d9516fe8c0f839d039ab6d37e"
+    },
+    {
+      "path": "core/intent-matcher.js",
+      "bytes": 579,
+      "sha256": "2a957dc7e32787977f1f5bcca1265703fb17a7b73e91c5238e8485898315fcdf"
+    },
+    {
+      "path": "core/local-attachments.js",
+      "bytes": 2168,
+      "sha256": "fd3fe08c6222be09fb1110833f07271a652cf00f846b1e14f47fe4280323aa36"
+    },
+    {
+      "path": "core/media-viewer.js",
+      "bytes": 1627,
+      "sha256": "30d43c4c5c96a9ce82dfd6fbc82640bc3f9ed7d4bf700b59dcd2722cd3521272"
+    },
+    {
+      "path": "core/router.js",
+      "bytes": 2006,
+      "sha256": "436110fa51edffe350417e4f905d9924ad6f7dfbee010c5bc49afd3482d70e43"
+    },
+    {
+      "path": "core/site-interactions.js",
+      "bytes": 4906,
+      "sha256": "e905056eca54313b4d67eed51fefca482f0353bfc77c99fe535f82998e1fdd17"
+    },
+    {
+      "path": "core/site-renderers.js",
+      "bytes": 9255,
+      "sha256": "b8f3ca86460478f8dbd6ff119e5e15ba76947d20177cb61e1e495efb71a450df"
+    },
+    {
+      "path": "core/text-normalize.js",
+      "bytes": 1189,
+      "sha256": "687e230033001ad92dd00d8fd01aaee37e70697271a449b48babbef97d30f795"
+    },
+    {
+      "path": "core/ui-icons.js",
+      "bytes": 3905,
+      "sha256": "5d82dbdfc3733f9192dd8fa6f25f6ecacd0d8eed9cdaa6ebe2a17898e7c6f1bd"
+    },
+    {
+      "path": "crypto-runtime.js",
+      "bytes": 3627,
+      "sha256": "f0d7128e1a4601472a81b10ec8fd78c3338544ad7e2d59a31cb95827ce74abbc"
+    },
+    {
+      "path": "data/app-branding.js",
+      "bytes": 732,
+      "sha256": "4cb521fb7545083ee7ce5c1078e838a40f6f65ddca3e5cb81aacc26b6a07c20c"
+    },
+    {
+      "path": "data/app-branding.json",
+      "bytes": 768,
+      "sha256": "d253670c65f7bc1688de6cedb3c618cf050e22db374f476ef02c539ee7c7a532"
+    },
+    {
+      "path": "data/apps/audio.js",
+      "bytes": 800,
+      "sha256": "feb375c31438500dcd7a291fb2edfe8725fbf568de783f1a85c9d91bfde81b28"
+    },
+    {
+      "path": "data/apps/browser.js",
+      "bytes": 1456,
+      "sha256": "d1f20db3562f6d0480e24de6f5358fcef58471e2ed9efa70abf4622bea324850"
+    },
+    {
+      "path": "data/apps/files.js",
+      "bytes": 702,
+      "sha256": "f5f7248917f7a10cced69de898b3894da83facdf27d2a1dd468ccdc98d6c653b"
+    },
+    {
+      "path": "data/apps/line.js",
+      "bytes": 5624,
+      "sha256": "247e191ba62cc5d53cbada0a0d454cc2c24a43002bd1397ee7770dd4bb16ef81"
+    },
+    {
+      "path": "data/apps/mail.js",
+      "bytes": 523,
+      "sha256": "dec3d38bdc3e455ff3438b3cb8fff6cd9757bce43f6827ea1640e9d26271eea4"
+    },
+    {
+      "path": "data/apps/notes.js",
+      "bytes": 173,
+      "sha256": "b7f0d0856c31ae5bd79fe7211114351662ec6971b5f880fb03f856345adf5a4d"
+    },
+    {
+      "path": "data/apps/photos.js",
+      "bytes": 1283,
+      "sha256": "0ce6b9dcca5973e00b66d8dd0770d2ffc9e4f6a303f7c7a3e51beef6919ad55c"
+    },
+    {
+      "path": "data/apps/search.js",
+      "bytes": 1134,
+      "sha256": "cbfecbb98f963736b6c6fc14af134a3a4a6432a32378fe259807818f2d17645b"
+    },
+    {
+      "path": "data/apps/settings.js",
+      "bytes": 151,
+      "sha256": "d55b099e3ae73753366bcf6e64e92c00dd0dceaeec041f3f4a8a11edc7d4029f"
+    },
+    {
+      "path": "data/apps/social.js",
+      "bytes": 5250,
+      "sha256": "f9acb0c3f02a413125218f6d9dfc41c4fcff748787de162b8ab9e9a1b5918ac9"
+    },
+    {
+      "path": "data/case-registry.js",
+      "bytes": 487,
+      "sha256": "6dec288adeee72026164c29306df2fc75c08903d40862244527a5a631b621e6e"
+    },
+    {
+      "path": "data/content.js",
+      "bytes": 965,
+      "sha256": "d0e5f15cda12c6e1e79e1b6304b87e0318efc56c09691ae3eb357021c5ce3a72"
+    },
+    {
+      "path": "desktop.css",
+      "bytes": 18716,
+      "sha256": "1ed0cb09884e8e090e0061ac25effdd52eea31a2519b6f27ea8b1cce9156d0d7"
+    },
+    {
+      "path": "desktop.html",
+      "bytes": 3349,
+      "sha256": "19f5bf6abafe6567c8fae624db0dea61a96db573a96926dfa2be4c573f03fdae"
+    },
+    {
+      "path": "desktop.js",
+      "bytes": 8434,
+      "sha256": "a4d8456a9a0ea4dd64c68a535b4aae26143daeaa7e6b2a32b051f8bfa754326d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 314,
+      "sha256": "9a5a9767d1cba6dec19a22c9e9025b0f98b62ed41a7f64999dfbcbe84d1a652c"
+    },
+    {
+      "path": "save-adapter.js",
+      "bytes": 3091,
+      "sha256": "badaf67a83a29705a5f879f80ab16cd9679e4b3fe5bcccc4d486a9a0719cdd8b"
+    },
+    {
+      "path": "site-presets/admin-portal/preset.json",
+      "bytes": 429,
+      "sha256": "2f44722ae6a6655e9fc83c2223b659e8754b5bc4b05bf435e2fe4e97dacc67e3"
+    },
+    {
+      "path": "site-presets/archive-database/preset.json",
+      "bytes": 445,
+      "sha256": "c0ae1595bc9d9e9e673d2c27c0650157190fb5d9b0a196083bad69f69a9c534e"
+    },
+    {
+      "path": "site-presets/community-board/preset.json",
+      "bytes": 433,
+      "sha256": "110541cff1e3df192819ed90381051043dd0c1764c6241f79c26e88efc0da19f"
+    },
+    {
+      "path": "site-presets/corporate/preset.json",
+      "bytes": 434,
+      "sha256": "5a4c6f44d5f69fa00945ba31cb4f5c56a23b2f7773c090dd94da95795f3728ee"
+    },
+    {
+      "path": "site-presets/local-news/preset.json",
+      "bytes": 432,
+      "sha256": "10ff782864fe1820bb8fcd76aa2209fe15d7f97072ae3dbb33b0e899a1c5d6b5"
+    },
+    {
+      "path": "site-presets/personal-blog/preset.json",
+      "bytes": 430,
+      "sha256": "aaa1cefe618278215aad44a38d5024a78b603e82eafb1e270a67719b0fa53fdc"
+    },
+    {
+      "path": "site-presets/public-agency/preset.json",
+      "bytes": 436,
+      "sha256": "a9d97167377515e6326134ac6aa4f577597c47417ced7e62e21a35a5502956ac"
+    },
+    {
+      "path": "site-presets/support-org/preset.json",
+      "bytes": 431,
+      "sha256": "3f68a0e4f624775819b04fa6d3ee9ddba161274575ff0620d1d7bfe7617b0d33"
+    },
+    {
+      "path": "styles/app-frame.css",
+      "bytes": 1962,
+      "sha256": "d5d9a9f1f84b9b48b7705d6d51abe33d0bb5a13d159229b26ae612d04d185174"
+    },
+    {
+      "path": "styles/audio.css",
+      "bytes": 676,
+      "sha256": "df5c8bcf9f932314b621b1447829caa981717e9f60dc082fab9d0feff8695529"
+    },
+    {
+      "path": "styles/browser.css",
+      "bytes": 780,
+      "sha256": "6df0f9f66967830e2b3fbb09d6cc9b0cd20e9adcde80647d0df8e40a860be3d5"
+    },
+    {
+      "path": "styles/files.css",
+      "bytes": 1151,
+      "sha256": "77a4af03100e28249c1b4618dff785d8e680c32e37f5dba08c366b57c0c00b25"
+    },
+    {
+      "path": "styles/line.css",
+      "bytes": 33363,
+      "sha256": "e335be2142fea2e060e75ffcce99de5a3fdb0082200b6e898c554e453b6f6f7e"
+    },
+    {
+      "path": "styles/mail.css",
+      "bytes": 1128,
+      "sha256": "40986538d8eb7a533f177e281d60232c463c80caec6709db5d6214f0962481ee"
+    },
+    {
+      "path": "styles/notes.css",
+      "bytes": 814,
+      "sha256": "46369abf9ab932e97e81dac4863134de09d64f3dd18e2f5da583e9c31fff10b9"
+    },
+    {
+      "path": "styles/photos.css",
+      "bytes": 870,
+      "sha256": "4bf053a45d7d7aeeaa8d1245137b9347e4881e1ac69d3e0e2ae200e1aa0fff6e"
+    },
+    {
+      "path": "styles/search.css",
+      "bytes": 1449,
+      "sha256": "bb1edb1d97c667fa81f8b009a5d0defd07ff1adf97fea5605afcbc66085bbfb8"
+    },
+    {
+      "path": "styles/settings.css",
+      "bytes": 831,
+      "sha256": "d10decc46b96b3b77efc929bd85b285aeb06c997b020884316691c5723c9bbc8"
+    },
+    {
+      "path": "styles/sites/admin.css",
+      "bytes": 1134,
+      "sha256": "66180a24f08133b89568b0e01f75e041449973b606a5691e0a727fc7b4d48207"
+    },
+    {
+      "path": "styles/sites/agency.css",
+      "bytes": 1148,
+      "sha256": "f738c196c56366b45bcf2cbf33fd5ffcaf6d65f129fe0a2fe9fa01c3e232eed7"
+    },
+    {
+      "path": "styles/sites/archive.css",
+      "bytes": 960,
+      "sha256": "2599745d81938dc4ef3291378a6131feeb696982560758e6509820ccafd68bc7"
+    },
+    {
+      "path": "styles/sites/blog.css",
+      "bytes": 1054,
+      "sha256": "85813c2e277e12d02f3574141477ec54ac2eb6752ace3d249c107994741ecf04"
+    },
+    {
+      "path": "styles/sites/board.css",
+      "bytes": 1037,
+      "sha256": "b579ccbcd7791e6db899428fc4359dcaafa7cde647c7f1b2138b6418a2507a21"
+    },
+    {
+      "path": "styles/sites/corporate.css",
+      "bytes": 1275,
+      "sha256": "38661cfe9fb899719becde0aa4bda9d07b77d99c788478a959ae3a808a000b03"
+    },
+    {
+      "path": "styles/sites/news.css",
+      "bytes": 1025,
+      "sha256": "a5aac81bc311f3f38dc687407275d07d54d51b959739025772133570d5698ede"
+    },
+    {
+      "path": "styles/sites/support.css",
+      "bytes": 1210,
+      "sha256": "62cfa54b9c53d259c38a0621bac5d43180b68bcdba9be0dd23cf698fbe39b5f5"
+    },
+    {
+      "path": "styles/social.css",
+      "bytes": 31923,
+      "sha256": "77f909a359c208b63a22120cf17bb577478a0d5eedd5786e85e0bf18da85d72d"
+    },
+    {
+      "path": "styles/tokens.css",
+      "bytes": 1601,
+      "sha256": "bdc02f179c059216ab7e8e53a6f2be39d2133f94fa2f7c2511b6bc2303f40f0d"
+    }
+  ]
+}

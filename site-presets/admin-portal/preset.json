@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  2,
+    "id":  "admin-portal",
+    "renderer":  "admin",
+    "layoutSignature":  "sidebar-table",
+    "sampleHost":  "admin-portal.local",
+    "pages":  [
+                  "home",
+                  "secondary",
+                  "about-or-help",
+                  "empty",
+                  "not-found"
+              ],
+    "runtimeRegistry":  "data/content.js",
+    "storyNeutral":  true
+}

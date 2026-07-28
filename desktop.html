@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101525">
+  <title>既読は午後十時に止まる</title>
+  <link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+  <div class="stage-light stage-light-a" aria-hidden="true"></div>
+  <div class="stage-light stage-light-b" aria-hidden="true"></div>
+  <main class="phone" id="phone" aria-label="既読は午後十時に止まる">
+    <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+      <div class="welcome__bar"></div>
+      <p class="eyebrow">ARCHIVE / 118</p>
+      <h1 id="welcome-title">既読は午後十時に止まる</h1>
+      <p class="welcome__lead">夜間展示のあとに届いた端末アーカイブです。通知、記録、会話を比べて、何が消されたのかを確かめてください。</p>
+      <div class="notice-box">
+        <strong>はじめに</strong>
+        <p>これはフィクションです。外部アカウントや端末機能にはアクセスしません。記録の消去、対人関係の隔たり、オンライン上の特定可能性を扱います。</p>
+      </div>
+      <dl class="welcome__facts">
+        <div><dt>想定時間</dt><dd>約180分</dd></div>
+        <div><dt>進行</dt><dd>8章・保存対応</dd></div>
+      </dl>
+      <button class="primary large" id="start-case" type="button">アーカイブを開く <span>→</span></button>
+      <p class="welcome__small">音声なしでもすべて進行できます。</p>
+    </section>
+
+    <section class="phone__main" id="game" hidden>
+      <header class="status" aria-label="端末の状態">
+        <time id="device-clock">22:00</time>
+        <span class="status__case">ARCHIVE 118</span>
+        <span class="status__icons" aria-label="端末はオフラインです">◌　▰　▱</span>
+      </header>
+      <header class="app-header">
+        <button id="back-button" class="icon-button" type="button" aria-label="ホームへ戻る" hidden>‹</button>
+        <div><p id="app-kicker">保管された端末</p><h2 id="app-title">ホーム</h2></div>
+        <button id="utility-button" class="icon-button utility" type="button" aria-label="設定">···</button>
+      </header>
+      <section class="screen" id="screen" tabindex="-1" aria-live="polite"></section>
+      <nav class="tabbar" aria-label="主要な画面">
+        <button type="button" data-tab="home"><span>⌂</span>ホーム</button>
+        <button type="button" data-tab="inbox"><span>◉</span>連絡</button>
+        <button type="button" data-tab="search"><span>⌕</span>索引</button>
+        <button type="button" data-tab="files"><span>▤</span>保管</button>
+        <button type="button" data-tab="notes"><span>✦</span>メモ</button>
+      </nav>
+    </section>
+  </main>
+  <dialog class="sheet" id="claim-dialog" aria-labelledby="claim-title"></dialog>
+  <dialog class="sheet" id="settings-dialog" aria-labelledby="settings-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="case-manifest.js"></script>
+  <script src="data/case-registry.js"></script>
+  <script src="case-ui.js"></script>
+</body>
+</html>

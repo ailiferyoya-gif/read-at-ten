@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  2,
+    "id":  "community-board",
+    "renderer":  "board",
+    "layoutSignature":  "thread-list",
+    "sampleHost":  "community-board.local",
+    "pages":  [
+                  "home",
+                  "secondary",
+                  "about-or-help",
+                  "empty",
+                  "not-found"
+              ],
+    "runtimeRegistry":  "data/content.js",
+    "storyNeutral":  true
+}

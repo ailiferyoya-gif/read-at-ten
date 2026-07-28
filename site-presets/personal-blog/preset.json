@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  2,
+    "id":  "personal-blog",
+    "renderer":  "blog",
+    "layoutSignature":  "diary-archive",
+    "sampleHost":  "personal-blog.local",
+    "pages":  [
+                  "home",
+                  "secondary",
+                  "about-or-help",
+                  "empty",
+                  "not-found"
+              ],
+    "runtimeRegistry":  "data/content.js",
+    "storyNeutral":  true
+}

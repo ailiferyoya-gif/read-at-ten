@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "projectName": "既読は午後十時に止まる",
+  "caseSlug": "read-at-ten",
+  "selectedApps": [
+    "line",
+    "browser",
+    "search",
+    "social",
+    "photos",
+    "audio",
+    "files",
+    "notes",
+    "settings"
+  ],
+  "features": {
+    "generatedImages": true,
+    "audioMode": "Off",
+    "audio": false,
+    "video": false,
+    "fictionalSites": true,
+    "richSites": true,
+    "interactiveMessaging": true,
+    "localCalls": true,
+    "searchSessions": true,
+    "pageVersioning": true,
+    "templateV2Smoke": false
+  },
+  "publicVersion": "1.0.0",
+  "buildTimestamp": "2026-07-28T08:30:00Z"
+}

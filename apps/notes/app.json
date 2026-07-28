@@ -1,0 +1,16 @@
+{
+  "id": "notes",
+  "label": "Notes",
+  "icon": "N",
+  "entry": "apps/notes/index.html",
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+

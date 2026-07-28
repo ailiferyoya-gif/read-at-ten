@@ -1,0 +1,18 @@
+{
+  "id": "browser",
+  "label": "Browser",
+  "icon": "B",
+  "entry": "apps/browser/index.html",
+  "dependencies": [
+    "search"
+  ],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+

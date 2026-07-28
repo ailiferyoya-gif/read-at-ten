@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "storyNeutral": true,
+  "slots": [
+    { "id": "character-reference", "kind": "image", "minimum": "512x512", "transparent": true },
+    { "id": "evidence-photo", "kind": "image", "minimum": "320x240", "differenceEdit": true },
+    { "id": "location-background", "kind": "image", "minimum": "1024x576" },
+    { "id": "spoken-evidence", "kind": "audio", "captions": true, "transcript": true, "noAudioEquivalent": true }
+  ]
+}

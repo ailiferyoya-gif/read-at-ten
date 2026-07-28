@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  2,
+    "id":  "archive-database",
+    "renderer":  "archive",
+    "layoutSignature":  "filter-result-table",
+    "sampleHost":  "archive-database.local",
+    "pages":  [
+                  "home",
+                  "secondary",
+                  "about-or-help",
+                  "empty",
+                  "not-found"
+              ],
+    "runtimeRegistry":  "data/content.js",
+    "storyNeutral":  true
+}

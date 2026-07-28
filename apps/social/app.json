@@ -1,0 +1,16 @@
+{
+  "id": "social",
+  "label": "Ripple",
+  "icon": "O",
+  "entry": "apps/social/index.html",
+  "window": { "width": 1190, "height": 740, "minWidth": 780 },
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}

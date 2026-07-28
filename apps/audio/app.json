@@ -1,0 +1,16 @@
+{
+  "id": "audio",
+  "label": "Audio",
+  "icon": "A",
+  "entry": "apps/audio/index.html",
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+

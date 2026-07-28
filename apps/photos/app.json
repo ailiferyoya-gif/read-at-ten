@@ -1,0 +1,16 @@
+{
+  "id": "photos",
+  "label": "Photos",
+  "icon": "P",
+  "entry": "apps/photos/index.html",
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "id": "line",
+  "label": "Link",
+  "icon": "L",
+  "entry": "apps/line/index.html",
+  "window": { "width": 1040, "height": 710, "minWidth": 760 },
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}

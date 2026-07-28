@@ -1,0 +1,16 @@
+{
+    "schemaVersion":  2,
+    "id":  "corporate",
+    "renderer":  "corporate",
+    "layoutSignature":  "hero-service-columns",
+    "sampleHost":  "corporate.local",
+    "pages":  [
+                  "home",
+                  "secondary",
+                  "about-or-help",
+                  "empty",
+                  "not-found"
+              ],
+    "runtimeRegistry":  "data/content.js",
+    "storyNeutral":  true
+}

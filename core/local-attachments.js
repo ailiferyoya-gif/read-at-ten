@@ -1,0 +1,10 @@
+(function(global){
+"use strict";
+const MAX_FILE_BYTES=512*1024,MAX_TOTAL_BYTES=2*1024*1024;
+const readFile=(file,mode)=>new Promise((resolve,reject)=>{const reader=new FileReader();reader.onerror=()=>reject(new Error("ファイルを読み込めません"));reader.onload=()=>resolve(String(reader.result||""));mode==="text"?reader.readAsText(file):reader.readAsDataURL(file);});
+async function fromFile(file,current){if(!file)throw new Error("ファイルが選択されていません");if(file.size>MAX_FILE_BYTES)throw new Error("1ファイルは512KiB以下にしてください");const total=(current||[]).reduce((n,x)=>n+(Number(x.size)||0),0)+file.size;if(total>MAX_TOTAL_BYTES)throw new Error("添付の合計は2MiB以下にしてください");const type=file.type||"application/octet-stream",isText=type.startsWith("text/")||/\.(txt|md|csv|json|vtt|srt)$/i.test(file.name),data=await readFile(file,isText?"text":"data");return{id:"att-"+Date.now().toString(36)+"-"+Math.random().toString(36).slice(2,7),name:file.name.replace(/[\\/:*?"<>|]/g,"_").slice(0,120)||"attachment",type,size:file.size,kind:type.startsWith("image/")?"image":type.startsWith("audio/")?"audio":isText?"text":"file",data,src:isText?null:data,text:isText?data:null,createdAt:new Date().toISOString(),storage:"inline-local"};}
+function media(att){if(att.kind==="image")return{type:"image",src:att.src||att.data,alt:att.alt||att.name,caption:att.name,evidenceId:att.evidenceId,evidenceOn:att.evidenceOn};if(att.kind==="audio")return{type:"audio",src:att.src||att.data,caption:att.name,transcript:att.transcript,noAudioEquivalent:att.noAudioEquivalent,evidenceId:att.evidenceId,evidenceOn:att.evidenceOn};return{type:"text",text:att.text||att.data||att.name,caption:att.name,evidenceId:att.evidenceId,evidenceOn:att.evidenceOn};}
+function open(att){global.VDMMedia.open(media(att));}
+function download(att){if(!att.src&&!att.data)return false;const a=document.createElement("a");a.href=localMediaUrl(att.src||att.data);a.download=att.name||"attachment";a.click();return true;}
+global.VDMLocalAttachment={MAX_FILE_BYTES,MAX_TOTAL_BYTES,fromFile,media,open,download};
+})(window);

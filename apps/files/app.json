@@ -1,0 +1,16 @@
+{
+  "id": "files",
+  "label": "Files",
+  "icon": "F",
+  "entry": "apps/files/index.html",
+  "dependencies": [],
+  "capabilities": [
+    "interactive",
+    "local-state",
+    "evidence-hooks",
+    "keyboard",
+    "mobile",
+    "single-html"
+  ]
+}
+
